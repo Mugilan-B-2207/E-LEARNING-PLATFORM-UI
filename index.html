@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">E-Learn</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to E-Learn</h1>
+        <p>Discover, Learn, and Grow with our curated courses.</p>
+        <input type="text" placeholder="Search for a course...">
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="course-list">
+            <div class="course-card">
+                <h3>UI / UX</h3>
+                <p>Instructor: John Doe</p>
+                <p>Progress: 50%</p>
+                <button>View Details</button>
+            </div>
+            <div class="course-card">
+                <h3>FED</h3>
+                <p>Instructor: Jane Smith</p>
+                <p>Progress: 80%</p>
+                <button>View Details</button>
+            </div>
+            <div class="course-card">
+                <h3>Excel</h3>
+                <p>Instructor: Jane Smith</p>
+                <p>Progress: 65%</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <h2>Your Dashboard</h2>
+        <div class="progress-tracker">
+            <h3>Enrolled Courses</h3>
+            <ul>
+                <li>
+                    Course 1 - 50% complete
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                </li>
+                <li>
+                    Course 2 - 80% complete
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </li>
+                <li>
+                    Course 3 - 80% complete
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Course Details</h2>
+        <video controls>
+            <source src="Actual-Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Course Description: This course covers...</p>
+    </section>
+
+    <!-- Login/Signup Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#signup">Sign up here</a>.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 E-Learn. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
